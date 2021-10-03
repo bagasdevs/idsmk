@@ -19,7 +19,8 @@ if not getenv("2031141109:AAFiIFFy06D2LPzm5tK89uGoW8tq8JZ-KyU
     exit("Error: no token provided. Terminated.")
 
 # Initialize bot and dispatcher
-bot = Bot(token=getenv("BOT_TOKEN"), parse_mode="HTML")
+bot = Bot(token=getenv("2031141109:AAFiIFFy06D2LPzm5tK89uGoW8tq8JZ-KyU
+"), parse_mode="HTML")
 dp = Dispatcher(bot)
 dp.filters_factory.bind(IsGroupJoin, event_handlers=[dp.my_chat_member_handlers])
 logging.basicConfig(level=logging.INFO)
