@@ -14,7 +14,8 @@ if logs.enabled:
 
 errors_logger = logging.getLogger("errors")
 
-if not getenv("BOT_TOKEN"):
+if not getenv("2031141109:AAFiIFFy06D2LPzm5tK89uGoW8tq8JZ-KyU
+"):
     exit("Error: no token provided. Terminated.")
 
 # Initialize bot and dispatcher
