@@ -6,7 +6,7 @@ from os import getenv
 from sys import exit
 import logs
 from filters import IsGroupJoin
-
+worker: python bot.py
 
 logs.setup_errors_log()
 if logs.enabled:
